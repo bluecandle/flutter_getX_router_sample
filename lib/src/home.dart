@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sample_route_manage/src/pages/normal/first.dart';
+import 'package:sample_route_manage/src/pages/simple_state_manage_page.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -61,12 +62,11 @@ class Home extends StatelessWidget {
               },
             ),
             RaisedButton(
-              child: Text('동적 url'),
+              child: Text('단순상태관리'),
               onPressed: () {
-                // 이게 GetX 를 통한 Named route
-                Get.toNamed('/user/1234?date=19950212&gender=m');
+                Get.to(SimpleStateManagePage());
               },
-            )
+            ),
           ],
         ),
       ),
