@@ -9,6 +9,7 @@ import 'package:sample_route_manage/src/pages/state/with_provider.dart';
 class SimpleStateManagePage extends StatelessWidget {
   const SimpleStateManagePage({Key? key}) : super(key: key);
   @override
+  @override
   Widget build(BuildContext context) {
     // Get.put() > 인스턴스로 만들어준다 > 사용이 가능해짐!
 
