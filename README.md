@@ -96,3 +96,11 @@ GetX에서 상태관리는 두 가지로 나뉜다.
 
 DI!
 
+routing 단계에서 사용할 controller 를 주입해서 보내주기.
+
+# 강의 6 종속성 관리 - 바인딩
+
+[링크](https://www.youtube.com/watch?v=O1Bw-mwF9xc&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE&index=6)
+
+
+
