@@ -105,7 +105,7 @@ routing 단계에서 사용할 controller 를 주입해서 보내주기.
 - 인스턴스화 시키고, 올라간 인스턴스를 사용하고, 사용하지 않을 때는 제거하고…
 - main.dart (앱 시작할 때 설정들 수행되는 파일) 단계에서 페이지마다 binding 을 미리 지정해놓고, 이후에는 신경쓰지 않도록 만들 수 있다.
 
-## 강의 7 : **GetxService 는 GetxController는 뭐가 다를까?**
+## 강의 7 : GetxService 는 GetxController는 뭐가 다를까?
 
 [https://www.youtube.com/watch?v=hPLmNBDEnEk&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE&index=7](https://www.youtube.com/watch?v=hPLmNBDEnEk&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE&index=7)
 
